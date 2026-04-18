@@ -46,5 +46,3 @@ Ensure your user has permissions for `/dev/dri/card0`, `/dev/video0`, and `MEMLO
 ```bash
 ./kbx_vision_runtime
 ```
-
-Refer to `roadmap.md` for the deep-level architectural details and future implementation phases.
