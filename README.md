@@ -1,4 +1,4 @@
-# KBX Vision Runtime
+# KBX Vision Runtime ( currently working on)
 
 A high-performance, kernel-bypass Edge AI pipeline for Intel Architecture. This runtime implements a zero-copy data path from camera ingress to bare-metal display scanout using Level Zero, OpenVINO, and Vulkan.
 
