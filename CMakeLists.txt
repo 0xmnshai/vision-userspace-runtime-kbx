@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "-D_GNU_SOURCE -std=c++20 -Wall -Wextra -Wpedantic -Werror")
+add_compile_options(-D_GNU_SOURCE -Wall -Wextra -Wpedantic -Werror)
 
 # Find Dependencies
 find_package(PkgConfig REQUIRED)
